@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496FC40B1B73FC5100056FCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 496FC40A1B73FC5100056FCD /* main.m */; };
+		496FC40E1B73FC5100056FCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 496FC40D1B73FC5100056FCD /* AppDelegate.m */; };
+		496FC4111B73FC5100056FCD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4101B73FC5100056FCD /* GameScene.m */; };
+		496FC4131B73FC5100056FCD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 496FC4121B73FC5100056FCD /* GameScene.sks */; };
+		496FC4161B73FC5100056FCD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4151B73FC5100056FCD /* GameViewController.m */; };
+		496FC4191B73FC5100056FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496FC4171B73FC5100056FCD /* Main.storyboard */; };
+		496FC41B1B73FC5100056FCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496FC41A1B73FC5100056FCD /* Images.xcassets */; };
+		496FC41E1B73FC5100056FCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 496FC41C1B73FC5100056FCD /* LaunchScreen.xib */; };
+		496FC42A1B73FC5100056FCD /* FreeFall2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 496FC4291B73FC5100056FCD /* FreeFall2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496FC4241B73FC5100056FCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496FC3FD1B73FC5100056FCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 496FC4041B73FC5100056FCD;
+			remoteInfo = FreeFall2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		496FC4051B73FC5100056FCD /* FreeFall2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeFall2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		496FC4091B73FC5100056FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496FC40A1B73FC5100056FCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		496FC40C1B73FC5100056FCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		496FC40D1B73FC5100056FCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		496FC40F1B73FC5100056FCD /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		496FC4101B73FC5100056FCD /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		496FC4121B73FC5100056FCD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		496FC4141B73FC5100056FCD /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		496FC4151B73FC5100056FCD /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		496FC4181B73FC5100056FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		496FC41A1B73FC5100056FCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		496FC41D1B73FC5100056FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		496FC4231B73FC5100056FCD /* FreeFall2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeFall2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		496FC4281B73FC5100056FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496FC4291B73FC5100056FCD /* FreeFall2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeFall2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		496FC4021B73FC5100056FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496FC4201B73FC5100056FCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496FC3FC1B73FC5100056FCD = {
+			isa = PBXGroup;
+			children = (
+				496FC4071B73FC5100056FCD /* FreeFall2 */,
+				496FC4261B73FC5100056FCD /* FreeFall2Tests */,
+				496FC4061B73FC5100056FCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		496FC4061B73FC5100056FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496FC4051B73FC5100056FCD /* FreeFall2.app */,
+				496FC4231B73FC5100056FCD /* FreeFall2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		496FC4071B73FC5100056FCD /* FreeFall2 */ = {
+			isa = PBXGroup;
+			children = (
+				496FC40C1B73FC5100056FCD /* AppDelegate.h */,
+				496FC40D1B73FC5100056FCD /* AppDelegate.m */,
+				496FC40F1B73FC5100056FCD /* GameScene.h */,
+				496FC4101B73FC5100056FCD /* GameScene.m */,
+				496FC4121B73FC5100056FCD /* GameScene.sks */,
+				496FC4141B73FC5100056FCD /* GameViewController.h */,
+				496FC4151B73FC5100056FCD /* GameViewController.m */,
+				496FC4171B73FC5100056FCD /* Main.storyboard */,
+				496FC41A1B73FC5100056FCD /* Images.xcassets */,
+				496FC41C1B73FC5100056FCD /* LaunchScreen.xib */,
+				496FC4081B73FC5100056FCD /* Supporting Files */,
+			);
+			path = FreeFall2;
+			sourceTree = "<group>";
+		};
+		496FC4081B73FC5100056FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496FC4091B73FC5100056FCD /* Info.plist */,
+				496FC40A1B73FC5100056FCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		496FC4261B73FC5100056FCD /* FreeFall2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				496FC4291B73FC5100056FCD /* FreeFall2Tests.m */,
+				496FC4271B73FC5100056FCD /* Supporting Files */,
+			);
+			path = FreeFall2Tests;
+			sourceTree = "<group>";
+		};
+		496FC4271B73FC5100056FCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				496FC4281B73FC5100056FCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		496FC4041B73FC5100056FCD /* FreeFall2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496FC42D1B73FC5100056FCD /* Build configuration list for PBXNativeTarget "FreeFall2" */;
+			buildPhases = (
+				496FC4011B73FC5100056FCD /* Sources */,
+				496FC4021B73FC5100056FCD /* Frameworks */,
+				496FC4031B73FC5100056FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeFall2;
+			productName = FreeFall2;
+			productReference = 496FC4051B73FC5100056FCD /* FreeFall2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		496FC4221B73FC5100056FCD /* FreeFall2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 496FC4301B73FC5100056FCD /* Build configuration list for PBXNativeTarget "FreeFall2Tests" */;
+			buildPhases = (
+				496FC41F1B73FC5100056FCD /* Sources */,
+				496FC4201B73FC5100056FCD /* Frameworks */,
+				496FC4211B73FC5100056FCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				496FC4251B73FC5100056FCD /* PBXTargetDependency */,
+			);
+			name = FreeFall2Tests;
+			productName = FreeFall2Tests;
+			productReference = 496FC4231B73FC5100056FCD /* FreeFall2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		496FC3FD1B73FC5100056FCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Andrew Zhu";
+				TargetAttributes = {
+					496FC4041B73FC5100056FCD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					496FC4221B73FC5100056FCD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 496FC4041B73FC5100056FCD;
+					};
+				};
+			};
+			buildConfigurationList = 496FC4001B73FC5100056FCD /* Build configuration list for PBXProject "FreeFall2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 496FC3FC1B73FC5100056FCD;
+			productRefGroup = 496FC4061B73FC5100056FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				496FC4041B73FC5100056FCD /* FreeFall2 */,
+				496FC4221B73FC5100056FCD /* FreeFall2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		496FC4031B73FC5100056FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496FC41E1B73FC5100056FCD /* LaunchScreen.xib in Resources */,
+				496FC41B1B73FC5100056FCD /* Images.xcassets in Resources */,
+				496FC4131B73FC5100056FCD /* GameScene.sks in Resources */,
+				496FC4191B73FC5100056FCD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496FC4211B73FC5100056FCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		496FC4011B73FC5100056FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496FC4161B73FC5100056FCD /* GameViewController.m in Sources */,
+				496FC40E1B73FC5100056FCD /* AppDelegate.m in Sources */,
+				496FC4111B73FC5100056FCD /* GameScene.m in Sources */,
+				496FC40B1B73FC5100056FCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496FC41F1B73FC5100056FCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496FC42A1B73FC5100056FCD /* FreeFall2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		496FC4251B73FC5100056FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 496FC4041B73FC5100056FCD /* FreeFall2 */;
+			targetProxy = 496FC4241B73FC5100056FCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		496FC4171B73FC5100056FCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496FC4181B73FC5100056FCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		496FC41C1B73FC5100056FCD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				496FC41D1B73FC5100056FCD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		496FC42B1B73FC5100056FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		496FC42C1B73FC5100056FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		496FC42E1B73FC5100056FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreeFall2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		496FC42F1B73FC5100056FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FreeFall2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		496FC4311B73FC5100056FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreeFall2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFall2.app/FreeFall2";
+			};
+			name = Debug;
+		};
+		496FC4321B73FC5100056FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreeFall2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeFall2.app/FreeFall2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		496FC4001B73FC5100056FCD /* Build configuration list for PBXProject "FreeFall2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496FC42B1B73FC5100056FCD /* Debug */,
+				496FC42C1B73FC5100056FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		496FC42D1B73FC5100056FCD /* Build configuration list for PBXNativeTarget "FreeFall2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496FC42E1B73FC5100056FCD /* Debug */,
+				496FC42F1B73FC5100056FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		496FC4301B73FC5100056FCD /* Build configuration list for PBXNativeTarget "FreeFall2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496FC4311B73FC5100056FCD /* Debug */,
+				496FC4321B73FC5100056FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 496FC3FD1B73FC5100056FCD /* Project object */;
+}
